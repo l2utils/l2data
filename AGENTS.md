@@ -20,14 +20,17 @@ Welcome to **`@l2utils/l2data`**! This repository provides a binary `.dat` file 
 ## 2. Common Developer Workflows & Commands
 
 ```sh
+# Install dependencies
+pnpm install
+
 # Build library and CLI
-npm run build
+pnpm run build
 
 # Run unit tests
-npm test
+pnpm test
 
 # Run tests with coverage
-npm run test:coverage
+pnpm run test:coverage
 ```
 
 ---
@@ -43,7 +46,7 @@ npm run test:coverage
 ---
 
 ## 4. Agent Operational Rules
-1. **Verify Before Done**: Always run `npm test` and `npm run build` after modifications.
+1. **Verify Before Done**: Always run `pnpm test` and `pnpm run build` after modifications.
 2. **Surgical Edits**: Make minimal, targeted diffs without altering existing comments or conventions.
 3. **Synchronize Configurations**: Keep `AGENTS.md`, `GEMINI.md`, `CLAUDE.md`, `.cursorrules`, and `.github/copilot-instructions.md` in sync.
 4. **PR Templates & Shell Safety**: Always populate `.github/pull_request_template.md` and pass it via `gh pr create --body-file <path>`.
