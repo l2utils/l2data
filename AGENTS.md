@@ -38,7 +38,7 @@ npm run test:coverage
   - CLI binary runner in `src/cli.ts`
 * Ensure `"declaration": true` and `"declarationMap": true` are active in `tsconfig.json`.
 * Maintain explicit `types` and `exports` maps in `package.json`.
-* Target 100% test coverage on core deserialization algorithms using Jest.
+* Target 100% test coverage on core deserialization algorithms using Vitest.
 
 ---
 
